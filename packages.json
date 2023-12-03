@@ -1,0 +1,71 @@
+{
+  "copr": [
+    "atim/starship",
+    "gunzy83/gunzy-os"
+  ],
+  "repos": [
+    {
+      "name": "sublime-text",
+      "url": "https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo",
+      "gpg": "https://download.sublimetext.com/sublimehq-rpm-pub.gpg"
+    },
+    {
+      "name": "vscode",
+      "content": "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc",
+      "gpg": "https://packages.microsoft.com/keys/microsoft.asc"
+    },
+    {
+      "name": "lens",
+      "url": "https://downloads.k8slens.dev/rpm/lens.repo"
+    },
+    {
+      "name": "teleport",
+      "url": "https://yum.releases.teleport.dev/rhel/9/Teleport/x86_64/stable/v14/teleport.repo"
+    },
+    {
+      "name": "gh-cli",
+      "url": "https://cli.github.com/packages/rpm/gh-cli.repo"
+    }
+  ],
+  "packages": [
+    "awscli2",
+    "bind-utils",
+    "cherry-kde-theme",
+    "code",
+    "direnv",
+    "fastfetch",
+    "gh",
+    "lens",
+    "libappindicator",
+    "make",
+    "nmap",
+    "numix-icon-theme-circle",
+    "starship",
+    "sublime-text",
+    "teleport-ent-updater",
+    "tig",
+    "unity-gtk2-module",
+    "unity-gtk3-module",
+    "vim"
+  ],
+  "rpms": [
+    {
+      "name": "inkdrop.rpm",
+      "download": "https://api.inkdrop.app/download/linux/rpm"
+    },
+    {
+      "name": "task.rpm",
+      "download": "https://github.com/go-task/task/releases/download/v3.31.0/task_linux_amd64.rpm"
+    }
+  ],
+  "binaries": [
+    {
+      "name": "doggo",
+      "archive": "https://github.com/mr-karan/doggo/releases/download/v0.5.7/doggo_0.5.7_linux_amd64.tar.gz"
+    },
+    {
+      "name": "k9s",
+      "archive": "https://github.com/derailed/k9s/releases/download/v0.28.1/k9s_Linux_amd64.tar.gz"
+    }
+  ]
+}
