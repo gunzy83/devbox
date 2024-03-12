@@ -17,7 +17,7 @@ repos:
   - name: lens
     url: https://downloads.k8slens.dev/rpm/lens.repo
   - name: teleport
-    url: https://yum.releases.teleport.dev/rhel/9/Teleport/x86_64/stable/v14/teleport.repo
+    url: https://yum.releases.teleport.dev/rhel/9/Teleport/x86_64/stable/cloud/teleport-yum.repo
   - name: gh-cli
     url: https://cli.github.com/packages/rpm/gh-cli.repo
 packages:
