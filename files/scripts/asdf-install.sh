@@ -3,7 +3,7 @@
 # Tell build process to exit if there are any errors.
 set -oue pipefail
 
-ASDF_VERSION='0.13.1'
+ASDF_VERSION='0.14.0'
 asdf_name="asdf-vm"
 asdf_dir="/opt/${asdf_name}"
 
